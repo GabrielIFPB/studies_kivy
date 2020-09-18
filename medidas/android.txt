@@ -1,0 +1,3 @@
+title=medidas
+author=Gabriel
+orientation=portrait

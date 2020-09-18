@@ -3,13 +3,17 @@ from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
 
 
-class Main(App):
+class RootWidget(FloatLayout):
+	pass
+
+
+class Medida(App):
 	
 	title = 'Photo Studio'
 	
 	def build(self):
-		return FloatLayout()
+		return RootWidget()
 
 
-main = Main()
+main = Medida()
 main.run()
